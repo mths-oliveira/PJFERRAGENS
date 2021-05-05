@@ -30,7 +30,7 @@ const theme = extendTheme({
   },
   sizes: {
     xs: '15.5rem',
-    def: '7.5rem',
+    def: '6.75rem',
   },
   breakpoints,
   styles: {
