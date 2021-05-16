@@ -1,0 +1,312 @@
+{
+  "list": [
+    ["Bucha", "Cadeado", "Cantoneira", "Dobradiça", "Escápula"],
+    ["Fecho", "Gancho", "Grampos"],
+    ["Parafuso", "Pitão", "Porta cadeado", "Pregos"],
+    ["Suporte", "Tarjeta", "Trinco"]
+  ],
+  "ferragens": [
+    {
+      "ids": ["01136 ", "01137", "01138", "90110", "90115", "90120"],
+      "details": [
+        "c/ Bucha nº 6",
+        "c/ Bucha nº 8",
+        "c/ Bucha nº 10",
+        "c/ Bucha nº 6 pcte c/ 100 unidades",
+        "c/ Bucha nº 8 pcte c/ 100 unidades",
+        "c/ Bucha nº 10 pcte c/ 100 unidades"
+      ],
+      "src": "/geral/1136.jpg",
+      "description": "Escápula com bucha para aplicações diversas.Fornecida encartelada com três unidades, buchas e em pacotes. "
+    },
+    {
+      "ids": ["01133", "01134", "01135", "90930", "91057", "90948"],
+      "details": [
+        "c/ Bucha nº 6 ",
+        "c/ Bucha nº 8 ",
+        "c/ Bucha nº 10",
+        "c/ Bucha nº 6 pcte c/ 100 unidades",
+        "c/ Bucha nº 8 pcte c/ 100 unidades",
+        "c/ Bucha nº 10 pcte c/ 100 unidades"
+      ],
+      "src": "/geral/1135.jpg",
+      "description": "Gancho para aplicações diversas. Fornecido encartelado com três unidades, buchas e em pacotes."
+    },
+    {
+      "ids": ["01186", "01104", "01188", "01082", "01189", "01090"],
+      "details": [
+        "4,2 x 40mm, cartela c/ 10 unidades e 10 buchas nº 6",
+        "4,2 x 40mm, bucha 6 pacote c/ 100 unidades",
+        "4,8 x 50mm, cartela c/ 5 unidades e 5 buchas nº 8",
+        "4,8 x 50mm, bucha 8, pacote c/ 100 unidades",
+        "5,5 x 65mm, cartela c/5 unidades e 5 buchas nº 10",
+        "5,5 x 65mm, bucha 10, pacote c/ 100 unidades"
+      ],
+      "src": "/geral/01090.jpg",
+      "description": "Parafuso fenda rosca soberba com bucha. Fornecido encartelado ou em pacotes."
+    },
+    {
+      "ids": [
+        "0808C",
+        "0808S",
+        "1010C",
+        "1010S",
+        "1212C",
+        "1212S",
+        "1315C",
+        "1515C",
+        "1721C",
+        "1830C",
+        "1936C",
+        "1510T"
+      ],
+      "details": [
+        "08 x 08 com cabeça, cartela com 70g",
+        "08 x 08 sem cabeça, cartela com 70g",
+        "10 x 10 com cabeça, cartela com 70g",
+        "10 x 10 sem cabeça, cartela com 70g",
+        "12 x 12 com cabeça, cartela com 100g",
+        "12 x 12 sem cabeça, cartela com 100g",
+        "13 x 15 com cabeça, cartela com 100g",
+        "15 x 15 com cabeça, cartela com 100g",
+        "17 x 21 com cabeça, cartela com 100g",
+        "18 x 30 com cabeça, cartela com 100g",
+        "19 x 36 com cabeça, cartela com 100g",
+        "15 x 10 taco, cartela com 100g"
+      ],
+      "src": "/geral/0808C.JPG",
+      "description": "Pregos para carpintaria e construção civil em geral. Fornecidos encartelados:"
+    },
+    {
+      "ids": ["1010AC", "1212AC", "1515AC", "1721AC", "1830AC"],
+      "details": [
+        "10 x 10, cartela com 50 unidades",
+        "12 x 12, cartela com 40 unidades",
+        "15 x 15, cartela com 30 unidades",
+        "17 x 21, cartela com 20 unidades",
+        "18 x 30, cartela com 10 unidades"
+      ],
+      "src": "/geral/0808C.JPG",
+      "description": "Pregos de aço com cabeça."
+    },
+    {
+      "ids": ["00839", "00840", "00604", "00605", "00841"],
+      "details": [
+        "medida: 2\"",
+        "medida: 3\"",
+        "medida: 4\"",
+        "medida: 5\"",
+        "medida: 6\""
+      ],
+      "src": "/geral/839.jpg",
+      "description": "Fecho chato bicromatizado reforçado, para aplicações diversas. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "ids": ["00911", "00912", "00914"],
+      "details": ["medida: 2\"", "medida: 2.1/2\"", "medida: 3.1/2\""],
+      "src": "/geral/00911.jpg",
+      "description": "Porta cadeado galvanizado, aplicações diversas. Fornecido encartelado com uma unidade e parafusos."
+    },
+    {
+      "ids": ["00722", "00723", "00724"],
+      "details": ["medida: 2\"", "medida: 2.1/2\"", "medida: 3\""],
+      "src": "/geral/0722.jpg",
+      "description": "Tarjeta galvanizada, aplicações diversas, fornecida encartelada com uma unidade e parafusos."
+    },
+
+    {
+      "ids": ["01064", "01065", "01066", "90956", "91065", "90964"],
+      "details": [
+        "Pitão com bucha nº 6 encartelado",
+        "Pitão com bucha nº 8 encartelado",
+        "Pitão com bucha nº 10 encartelado",
+        "Pitão com bucha nº 6 pacote com 100 peças",
+        "Pitão com bucha nº 8 pacote com 100 peças",
+        "Pitão com bucha nº 10 pacote com 100 peças"
+      ],
+      "src": "/geral/90964.jpg",
+      "description": "Pitão zincado. Fornecido encartelado com três peças e buchas ou pacotes com cem peças."
+    },
+
+    {
+      "ids": ["00775", "00776", "00777"],
+      "details": ["medida: 2.12\"", "medida: 4\"", "medida: 5\""],
+      "src": "/geral/0775.jpg",
+      "description": "Trinco tipo \"ferrolho\" galvanizado para aplicações diversas. Fornecido encartelado com uma peça e parafusos."
+    },
+
+    {
+      "ids": ["00835", "00836", "00837"],
+      "details": ["medida: 2\"", "medida: 3\"", "medida: 4\""],
+      "src": "/geral/0835.JPG",
+      "description": "Fecho chato bicromatizado (mini), para aplicações diversas. Fornecido encartelado com uma peça e parafusos."
+    },
+
+    {
+      "ids": ["00719", "00720", "00721"],
+      "details": ["medida: 2\"", "medida: 2.1/2\"", "medida: 3\""],
+      "src": "/geral/0719.jpg",
+      "description": "Tarjeta FPP (ferro pintado de preto), aplicações diversas, fornecida encartelada com uma unidade e parafusos."
+    },
+
+    {
+      "ids": ["01399", "01316", "01400", "1400F"],
+      "details": [
+        "5/16 x 110mm encartelado com um par.",
+        "5/16 x 110mm caixa com 100 peças",
+        "5/16 x 120mm encartelado com um par.",
+        "caixa com 100 peças."
+      ],
+      "src": "/geral/01399.jpg",
+      "description": "Parafuso zincado amarelo tipo fenda para cama. Fornecido encartelado ou em caixa."
+    },
+
+    {
+      "id": "01009",
+      "src": "/geral/01009.jpg",
+      "description": "Grampos para cerca. Fornecidos encartelados com 100 gramas."
+    },
+    {
+      "ids": ["00779", "00780", "00781"],
+      "details": ["medida: 6\"", "medida: 8\"", "medida: 10\""],
+      "src": "/geral/_MG_9945.JPG",
+      "description": "Trinco tipo \"ferrolho\" galvanizado para aplicações diversas. Fornecido avulso."
+    },
+
+    {
+      "ids": ["20591", "60453", "20591"],
+      "details": ["16x30mm", "17x40mm", "17x50mm"],
+      "src": "/geral/20613.JPG",
+      "description": "Gancho latonado para aplicações diversas. Fornecido em embalagens com cem peças."
+    },
+    {
+      "ids": ["00550"],
+      "details": ["medidas: 2.1/2\" x 1.1/2\""],
+      "src": "/geral/00550.png",
+      "description": "Dobradiça quadrada zincada. Aplicações diversas. Fornecida encartelada com duas peças e parafusos."
+    },
+    {
+      "id": "00778",
+      "src": "/geral/778.png",
+      "description": "Trinco tipo \"ferrolho\" FPP (ferro pintado de preto) para aplicações diversas. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "ids": ["22470"],
+      "details": ["medidas: 5/16 x 100mm"],
+      "src": "/geral/22470.png",
+      "description": "Parafuso para telha zincado. Fornecido em pacotes com cem peças."
+    },
+
+    {
+      "ids": ["00951", "00952", "00953", "96200", "96201", "96202"],
+      "details": [
+        "encartelado com um par bucha nº 8",
+        "encartelado com um par bucha nº 10",
+        "encartelado com um par bucha nº 12",
+        "pacote com 100 peças bucha nº 8",
+        "pacote com 100 peças bucha nº 10",
+        "pacote com 100 peças bucha nº 12"
+      ],
+      "src": "/geral/953.png",
+      "description": "Parafuso castelo para fixação de louças sanitárias. Fornecido encartelado ou em pacotes com cem unidades."
+    },
+    {
+      "ids": ["1201V", "1501V", "2001V", "2501V", "3001V", "4001V"],
+      "details": ["12cm", "15cm", "20cm", "25cm", "30cm", "40cm"],
+      "src": "/geral/vidro.png",
+      "description": "Cantoneira mão francesa branca para superfícies de vidro. Fornecida em peça avulsa."
+    },
+    {
+      "id": "00045",
+      "src": "/geral/00045.jpeg",
+      "description": "Fecho rápido para malas, baús e similares zincado. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "id": "00046",
+      "src": "/geral/00046.jpeg",
+      "description": "Fecho rápido para malas, baús e similares zincado com porta cadeado. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "ids": ["09150", "09166"],
+      "details": ["Cor branca", "Cor preta"],
+      "src": "/geral/09146.png",
+      "description": "Suporte de chumbar para pias e bancadas. Dimensões (CLA) 55 x 5 x 3cm - peça."
+    },
+    {
+      "ids": ["09146", "09165"],
+      "details": ["Cor branca", "Cor preta"],
+      "src": "/geral/09150.jpg",
+      "description": "Suporte de parafusar para pias e bancadas. Dimensões (CLA) 50 x 5 x 3cm - peça."
+    },
+
+    {
+      "ids": ["10200", "10250", "10300", "10350"],
+      "details": ["20mm", "25mm", "30mm", "35mm"],
+      "src": "/geral/CADEADO.jpg",
+      "description": "Cadeado de latão fornecido avulso."
+    },
+    {
+      "ids": ["96210", "96211"],
+      "details": ["1/4 x 75 x 20mm", "1/4 x 110 x 20mm"],
+      "src": "/geral/96211.jpg",
+      "description": "Gancho \"J\" (pescador) para telhas metálicas. Fornecido em pacotes com cem peças."
+    },
+
+    {
+      "ids": ["01511", "02013", "02513", "03017", "03525", "04025", "05026"],
+      "details": [
+        "15 x 10cm",
+        "20 x 13cm",
+        "25 x 13cm",
+        "30 x 17cm",
+        "35 x 25cm",
+        "40 x 25cm",
+        "50 x 26cm"
+      ],
+      "src": "/geral/05026.jpg",
+      "description": "Suporte cantoneira mão francesa para madeira na cor branca. Fornecido em caixas com 12 peças."
+    },
+
+    {
+      "ids": ["60098", "60099", "60101", "60100"],
+      "details": [
+        "nº 6, pacote com 200 peças",
+        "nº 8, pacote com 100 peças",
+        "nº 8, pacote com 500 peças",
+        "nº 10, pacote com 50 peças"
+      ],
+      "src": "/geral/60101.png",
+      "description": "Bucha de fixação para tijolo furado (baiano). Fornecida em pacotes."
+    },
+    {
+      "ids": ["60102", "60103", "60104", "60105"],
+      "details": [
+        "nº 6, pacote com 1.000 peças",
+        "nº 8, pacote com 1.000 peças",
+        "nº 10, pacote com 500 peças",
+        "nº 12, pacote com 500 peças"
+      ],
+      "src": "/geral/60105.png",
+      "description": "Bucha de fixação com anel. Fornecida em pacotes."
+    },
+    {
+      "ids": ["96180", "96199"],
+      "details": ["medidas: 1/4 x 240mm", "medidas: 1/4 x 280mm"],
+      "src": "/geral/96199.png",
+      "description": "Gancho \"J\" zincado para telhas metálicas completo. Fornecido em pacotes com cem peças."
+    },
+    {
+      "ids": ["60092", "60093", "60097", "60094", "60095", "60096"],
+      "details": [
+        "nº 5, pacote com 1.000 peças",
+        "nº 6, pacote com 1.000 peças",
+        "nº 7, pacote com 1.000 peças",
+        "nº 8, pacote com 1.000 peças",
+        "nº 10, pacote com 500 peças",
+        "nº 12, pacote com 250 peças"
+      ],
+      "src": "/geral/60092-60096.png",
+      "description": "Bucha de fixação. Fornecida em pacotes."
+    }
+  ]
+}

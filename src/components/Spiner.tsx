@@ -1,8 +1,10 @@
-import { Center, CircularProgress } from '@chakra-ui/react';
+import { Center, CenterProps, CircularProgress } from '@chakra-ui/react';
 
 import { memo, useEffect, useState } from 'react';
 
-function Spiner() {
+interface Props extends CenterProps {}
+
+function Spiner({ ...rest }: Props) {
   const [isLoading, setIsloading] = useState(true);
 
   useEffect(() => {
@@ -21,11 +23,13 @@ function Spiner() {
       left="0"
       zIndex="20"
       display={isLoading ? 'flex' : 'none'}
+      {...rest}
     >
       {isLoading && (
         <CircularProgress
           isIndeterminate
-          color="black"
+          color="grayDark"
+          trackColor="tranparent"
           size="def"
           display={isLoading ? 'inline-block' : 'none'}
         />

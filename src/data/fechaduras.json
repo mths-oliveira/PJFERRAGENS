@@ -1,0 +1,84 @@
+{
+  "list": [["Cilindro", "Fechadura", "Maçaneta"]],
+  "ferragens": [
+    {
+      "ids": ["00034", "00035", "00036", "00037", "00038", "00039", "00040"],
+      "details": [
+        "Para fechadura da marca MGM",
+        "Para fechadura da marca Haga",
+        "Para fechadura da marca Soprano",
+        "Para fechadura da marca STAM",
+        "Para fechadura da marca Aliança",
+        "Para fechadura da marca Arouca",
+        "Para fechadura da marca 3F"
+      ],
+      "src": "/fechaduras/00040.jpg",
+      "description": "Cilindro de reposição para fechaduras. Fornecidos encartelados com uma peça, um par de chaves e o parafuso de fixação."
+    },
+    {
+      "id": "01092",
+      "src": "/fechaduras/01092.jpg",
+      "description": "Maçaneta descentralizada cromada de reposição tipo bola. Fornecida encartelada com uma peça."
+    },
+    {
+      "id": "01091",
+      "src": "/fechaduras/01091.jpg",
+      "description": "Maçaneta cromada de reposição tipo alavanca. Fornecida encartelada com uma peça."
+    },
+    {
+      "id": "00024",
+      "src": "/fechaduras/00024.jpg",
+      "description": "Fechadura de sobrepor para portões. Fornecida em peça avulsa."
+    },
+    {
+      "id": "01093",
+      "src": "/fechaduras/1093N.png",
+      "description": "Maçaneta FLO (ferro latonado e oxidado) de reposição tipo alavanca. Fornecida encartelada com uma peça."
+    },
+    {
+      "id": "01094",
+      "src": "/fechaduras/01094.png",
+      "description": "Maçaneta descentralizada FLO (ferro latonado e oxidado) de reposição tipo bola. Fornecida encartelada com uma peça."
+    },
+    {
+      "id": "01140",
+      "src": "/fechaduras/01140.jpg",
+      "description": "Fechadura (trava) auxiliar para porta. utilizada como reforço de segurança."
+    },
+    {
+      "id": "01083",
+      "src": "/fechaduras/CAIXAO.png",
+      "description": "Fechadura de sobrepor tipo \"caixão\". Fornecida encartelada com uma peça, um par de chaves e parafusos."
+    },
+    {
+      "id": "01300",
+      "src": "/fechaduras/01300.png",
+      "description": "Fechadura para porta de correr tipo \"bico de papagaio\". Fornecida avulsa."
+    },
+    {
+      "ids": ["50010", "50011"],
+      "details": ["Cromada", "Antique"],
+      "src": "/fechaduras/50010.png",
+      "description": "Fechadura para porta pivotante."
+    },
+    {
+      "ids": ["201809E", "201809I", "201809B"],
+      "details": ["Externa", "Interna", "Banheiro / WC"],
+      "src": "/fechaduras/201809I.jpeg",
+      "description": "Fechadura cromada com maçaneta alavanca."
+    },
+    {
+      "ids": ["201810E", "201810I", "201810B"],
+      "details": ["Externa", "Interna", "Banheiro / WC"],
+      "src": "/fechaduras/201810B.jpg",
+      "description": "Fechadura FLO (ferro latonado e oxidado) com maçaneta \"taco de golfe\"."
+    },
+
+    {
+      "ids": ["01103", "01105"],
+      "details": ["30mm", "20mm"],
+      "src": "/fechaduras/01105.png",
+      "description": "Fechadura cromada para gaveta e armários. Fornecida encartelada com uma peça, um par de chaves e parafusos."
+    }
+  ]
+}

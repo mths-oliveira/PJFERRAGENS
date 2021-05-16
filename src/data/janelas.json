@@ -1,0 +1,170 @@
+{
+  "list": [
+    ["Borboleta", "Carranca", "Concha", "Corrente", "Cremona"],
+    ["Dobradiça", "Fecho", "Gonzo", "Levantador"],
+    ["Punho", "Tranqueta", "Trinco", "Vara"]
+  ],
+  "ferragens": [
+    {
+      "id": "00942",
+      "src": "/janelas/00942.jpg",
+      "description": "Punho para janelas galvanizado. Fornecido encartelado com um par."
+    },
+    {
+      "id": "00025",
+      "src": "/janelas/00025.jpg",
+      "description": "Fecho Concha de embutir colonial FLO (ferro latonado e oxidado), normalmente aplicado a janelas e portas. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "id": "00029",
+      "src": "/janelas/00029.jpg",
+      "description": "Borboleta colonial FLO (ferro latonado e oxidado) para janela do tipo \"guilhotina\". Mantém a janela suspensa. Fornecida encartelada com um par e parafusos."
+    },
+    {
+      "ids": ["00507", "00508"],
+      "details": ["Medida: 3.1/2\"", "Medida: 3\""],
+      "src": "/janelas/00507.jpg",
+      "description": "Dobradiça Palmela (tipo H) FLO (ferro latonado e oxidado), para janelas de madeira. Fornecidas encarteladas com um par e parafusos."
+    },
+    {
+      "id": "00509",
+      "src": "/janelas/00509.jpg",
+      "description": "Dobradiça Palmela (tipo H) FLO (ferro latonado e oxidado), normalmente aplicadas em janelas de madeira e portas (menos usual). Este modelo é dotado de pino de segurança que impossibilita a abertura da porta/janela caso o pino (que fica exposto) seja retirado. Fornecidas encarteladas com um par e parafusos."
+    },
+    {
+      "id": "00059",
+      "src": "/janelas/00059.jpg",
+      "description": "Trinco avião colonial FLO (ferro latonado e oxidado), normalmente aplicado em janelas instaladas em uma altura elevada cuja instalação é consorciada com uma corrente fornecida separadamente (vide produto ref: 00020). Fornecido encartelado com uma unidade e parafusos."
+    },
+    {
+      "id": "00052",
+      "src": "/janelas/00052.jpg",
+      "description": "Carranca colonial FLO (ferro latonado e oxidado) de parafusar. Destinada a manter janelas abertas contra a ação do vento. Fornecida encartelada com um par, parafusos e buchas."
+    },
+    {
+      "id": "00511",
+      "src": "/janelas/00511.jpg",
+      "description": "Dobradiça Palmela (tipo H) cromada 3.1/2\" para janelas de madeira. Este modelo é dotado de pino de segurança que impossibilita a abertura da janela caso o pino (que fica exposto) seja retirado. Fornecidas encarteladas com um par e parafusos."
+    },
+    {
+      "ids": ["00065", "00067"],
+      "details": ["Com vara", "Sem vara"],
+      "src": "/janelas/00067.jpg",
+      "description": "Cremona colonial pequena, utilizada em janelas. Fornecida encartelada com uma unidade e parafusos"
+    },
+    {
+      "id": "00051",
+      "src": "/janelas/00051.jpg",
+      "description": "Carranca colonial FLO (ferro latonado e oxidado) de chumbar. Destinada a manter janelas abertas contra a ação do vento. Fornecida encartelada com um par."
+    },
+    {
+      "id": "00946",
+      "src": "/janelas/0946.jpg",
+      "description": "Fecho tipo batom FLO (ferro latonado e oxidado) para janelas e portas, cartela com uma unidade e parafusos."
+    },
+    {
+      "id": "00061",
+      "src": "/janelas/0061.jpg",
+      "description": "Gonzo de embutir fechado colonial. Utilizado como eixo para janelas tipo \"capelinha\". Fornecido encartelado com dois pares e parafusos."
+    },
+    {
+      "id": "00506",
+      "src": "/janelas/0506.jpg",
+      "description": "Dobradiça Palmela (tipo H) FPP (ferro pintado de preto) 3.1/2\"  para janelas de madeira. Fornecidas encarteladas com um par e parafusos."
+    },
+    {
+      "id": "00056",
+      "src": "/janelas/00056.jpg",
+      "description": "Cremona cromada lisa, utilizada em janelas. Fornecida encartelada com uma peça e parafusos."
+    },
+    {
+      "id": "00510",
+      "src": "/janelas/00510.jpg",
+      "description": "Dobradiça Palmela (tipo H) cromada 3.1/2\", para janelas. Fornecidas encarteladas com um par e parafusos."
+    },
+    {
+      "id": "00945",
+      "src": "/janelas/0945.jpg",
+      "description": "Fecho tipo batom cromado para janelas e portas, cartela com uma unidade e parafusos."
+    },
+    {
+      "ids": ["00047", "00048", "00049"],
+      "details": [
+        "6cm de comprimento",
+        "9cm de comprimento",
+        "12cm de comprimento"
+      ],
+      "src": "/janelas/00049.jpg",
+      "description": "Trinco FLO (ferro latonado e oxidado) para portas e janelas. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "id": "00044",
+      "src": "/janelas/00044.jpg",
+      "description": "Tranqueta para janelas FLO (ferro latonado e oxidado) tipo \"bico virado\". Fornecida encartelada com uma peça e parafusos."
+    },
+    {
+      "id": "00060",
+      "src": "/janelas/0060.jpg",
+      "description": "Gonzo de embutir aberto colonial. Utilizado como eixo para janelas tipo \"capelinha\". Fornecido encartelado com dois pares e parafusos."
+    },
+    {
+      "id": "00043",
+      "src": "/janelas/0043.jpg",
+      "description": "Tranqueta para janelas galvanizada. Fornecida encartelada com uma peça e parafusos."
+    },
+    {
+      "id": "00020",
+      "src": "/janelas/0020.JPG",
+      "description": "Corrente fumê para trinco tipo avião e escorpião. Fornecida encartelada com uma peça."
+    },
+    {
+      "id": "00834",
+      "src": "/janelas/0834.jpg",
+      "description": "Fecho automático cromado para janelas. Fornecido encartelado com um par e parafusos."
+    },
+    {
+      "id": "00022",
+      "src": "/janelas/0022.JPG",
+      "description": "Concha de embutir FLO (ferro latonado e oxidado) para janela de correr. Fornecida encartelada com um par e parafusos."
+    },
+    {
+      "id": "00944",
+      "src": "/janelas/0944.jpg",
+      "description": "Punho FLO (ferro latonado e oxidado) para janelas de correr. Fornecido encartelado com um par e parafusos."
+    },
+    {
+      "ids": ["00050", "00057"],
+      "details": ["Com vara", "Sem vara"],
+      "src": "/janelas/00057.jpg",
+      "description": "Cremona colonial, utilizada em janelas. Fornecida encartelada com uma unidade e parafusos."
+    },
+    {
+      "id": "00021",
+      "src": "/janelas/00021.jpg",
+      "description": "Levantador FLO (ferro latonado e oxidado) para janela do tipo \"guilhotina\". Fornecido encartelado com um par e parafusos."
+    },
+    {
+      "ids": ["10055", "10056"],
+      "details": ["1,20m de comprimento", "1,50m de comprimento"],
+      "src": "/janelas/10056.jpg",
+      "description": "Vara para cremona FLO (ferro latonado e oxidado)."
+    },
+    {
+      "ids": ["10053", "10054"],
+      "details": ["1,20m de comprimento", "1,50m de comprimento"],
+      "src": "/janelas/10054.png",
+      "description": "Vara para cremona cromada."
+    },
+
+    {
+      "ids": ["0047C", "0048C", "0049C"],
+      "details": [
+        "6cm de comprimento",
+        "9cm de comprimento",
+        "12cm de comprimento"
+      ],
+      "src": "/janelas/0048C.png",
+      "description": "Trinco cromado para portas e janelas. Fornecido encartelado com uma peça e parafusos."
+    }
+  ]
+}

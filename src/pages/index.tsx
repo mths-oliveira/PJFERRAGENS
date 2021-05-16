@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Wraper from '../components/Wraper';
 import Footer from '../components/Footer';
 import Spiner from '../components/Spiner';
+import { useCallback, useRef, useState } from 'react';
 
 interface Pages {
   url: string;
@@ -49,27 +50,50 @@ const pages: Pages[] = [
 function App() {
   const { push } = useRouter();
 
+  const heroRef = useRef<HTMLDivElement>(null);
+
+  const [isHidden, setIsHidden] = useState(true);
+
+  const handleScroll = useCallback(() => {
+    if (!heroRef.current) return;
+
+    const { height, top } = heroRef.current.getBoundingClientRect();
+
+    const navbarHeight = 56;
+
+    const visibleHeight = height + top;
+
+    setIsHidden(visibleHeight > navbarHeight);
+  }, []);
+
   return (
-    <Wraper>
-      <Navbar />
+    <Wraper onScroll={handleScroll}>
+      <Navbar top={isHidden ? '-3.5rem' : '0'} />
       <Flex
-        flexDir="column"
-        marginTop="3.5rem"
+        bg="red"
+        height="fit-content"
+        paddingX={['0', '2.5rem', '5rem', '7.5rem', '15rem']}
+        ref={heroRef}
+      >
+        <Image src="/logo.jpg" />
+      </Flex>
+      <Flex
         flex={1}
+        flexDir="column"
         paddingX={['1rem', '2.5rem', '5rem', '7.5rem', '15rem']}
       >
         <Heading
           as="h1"
           fontSize="md"
           color="garyDark"
-          margin="2.5rem auto"
-          textAlign="center"
+          margin={['2.25rem 0', '2.25rem 0', '6rem 0 2.25rem']}
           textTransform="uppercase"
+          textAlign="center"
         >
           Categorias em ferragens
         </Heading>
         <Grid
-          marginBottom={['1rem', '2.5rem', '3.5rem']}
+          marginBottom={['1rem', '2.5rem', '6rem']}
           gridTemplateColumns={[
             'repeat(1, minmax(17.5rem, 1fr))',
             'repeat(2, minmax(17.5rem, 1fr))',
@@ -116,4 +140,5 @@ function App() {
     </Wraper>
   );
 }
+
 export default App;

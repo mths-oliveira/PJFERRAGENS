@@ -1,0 +1,149 @@
+{
+  "list": [
+    ["Cantoneira", "Chave", "Dobradiça"],
+    ["Fechadura", "Fecho", "Puxador", "Suporte"]
+  ],
+  "ferragens": [
+    {
+      "ids": ["00107"],
+      "details": ["Medida: 3\""],
+      "src": "/moveis/0107.jpg",
+      "description": "Dobradiça para móveis bicromatizada tipo \"janelinha\". Fornecida encartelada com um par e parafusos."
+    },
+    {
+      "id": "00103",
+      "src": "/moveis/0103.jpg",
+      "description": "Dobradiça para móveis bicromatizada de 1.1/2\". Fornecida encartelada com duas peças e parafusos."
+    },
+    {
+      "id": "00105",
+      "src": "/moveis/0105.jpg",
+      "description": "Dobradiça para móveis bicromatizada de 2\" tipo \"janelinha\". Fornecida encartelada com duas peças e parafusos."
+    },
+    {
+      "id": "00102",
+      "src": "/moveis/0101.jpg",
+      "description": "Dobradiça para móveis de pressão curva 35mm com calço. Fornecida encartelada com uma peça e parafusos."
+    },
+    {
+      "id": "01107",
+      "src": "/moveis/1107.jpg",
+      "description": "Chave colonial de reposição para fechaduras de móveis. Fornecida encartelada com uma peça."
+    },
+    {
+      "id": "01106",
+      "src": "/moveis/1106.jpg",
+      "description": "Fechadura para móveis plástica. Fornecida encartelada com uma peça, uma chave e parafusos."
+    },
+    {
+      "id": "00101",
+      "src": "/moveis/0102.jpg",
+      "description": "Dobradiça para móveis de pressão curva 26mm com calço. Fornecida encartelada com uma peça e parafusos."
+    },
+    {
+      "id": "02220",
+      "src": "/moveis/2220.jpg",
+      "description": "Dobradiça para móveis bicromatizada de 2.1/2\". Fornecida encartelada com duas unidades e parafusos."
+    },
+    {
+      "id": "00104",
+      "src": "/moveis/0104.jpg",
+      "description": "Dobradiça para móveis bicromatizada de 2\". Fornecida encartelada com duas peças e parafusos."
+    },
+    {
+      "id": "00420",
+      "src": "/moveis/00420.jpg",
+      "description": "Puxador plástico para móveis, acabamento cerejeira. Fornecido encartelado com uma peça e um parafuso."
+    },
+    {
+      "id": "00421",
+      "src": "/moveis/00421.jpg",
+      "description": "Puxador plástico para móveis, acabamento mogno. Fornecido encartelado com uma peça e um parafuso."
+    },
+    {
+      "id": "60043",
+      "src": "/moveis/60043.JPG",
+      "description": "Cantoneira para móveis. Utilizada para reforço estrutural. Fornecida em pacotes com cem peças."
+    },
+
+    {
+      "id": "01108",
+      "src": "/moveis/1108_N.png",
+      "description": "Fechadura para móveis em metal. Fornecida encartelada com uma peça, uma chave e parafusos."
+    },
+    {
+      "id": "00419",
+      "src": "/moveis/419.png",
+      "description": "Puxador de madeira mogno para móveis. Fornecido encartelado com uma peça e um parafuso."
+    },
+    {
+      "id": "03537",
+      "src": "/moveis/3537.png",
+      "description": "Puxador de madeira cerejeira para móveis. Fornecido encartelado com uma peça e um parafuso."
+    },
+    {
+      "id": "01109",
+      "src": "/moveis/1109.png",
+      "description": "Puxador colonial com entrada para chave em zamac. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "id": "01112",
+      "src": "/moveis/1112.png",
+      "description": "Puxador colonial base redonda (brinco) em zamac. Fornecido em cartela com uma peça e parafuso."
+    },
+    {
+      "id": "01110",
+      "src": "/moveis/1110.png",
+      "description": "Puxador colonial sem entrada para chave em zamac. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "id": "00031",
+      "src": "/moveis/00031.png",
+      "description": "Fecho magnético \"batente\" para móveis. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "ids": ["03701", "03702", "03701"],
+      "details": [
+        "medida: 3cm x 3cm",
+        "medida: 4cm x 4cm",
+        "medida: 5cm x 5cm"
+      ],
+      "src": "/moveis/_MG_9920.JPG",
+      "description": "Cantoneira para móveis. Utilizada principalmente para reforço estrutural. Fornecida encartelada com um par e parafusos."
+    },
+
+    {
+      "ids": ["00062", "0062F"],
+      "details": ["encartelado", "caixa com 100 peças"],
+      "src": "/moveis/0062.jpg",
+      "description": "Fecho rolete para móveis. Fornecido encartelado com uma peça e parafusos ou caixa com 100 peças. Acabamentos galvanizado ou bicromatizado."
+    },
+    {
+      "ids": ["00150", "0150F"],
+      "details": ["encartelado", "a granel"],
+      "src": "/moveis/00150.jpg",
+      "description": "Suporte cabideiro para guarda-roupas oblongo. Fornecido encartelado ou a granel."
+    },
+    {
+      "ids": ["00140", "0140F"],
+      "details": ["encartelado", "a granel"],
+      "src": "/moveis/00150.jpg",
+      "description": "Suporte cabideiro para guarda-roupas redondo. Fornecido encartelado ou a granel."
+    },
+    {
+      "ids": ["00336", "00337"],
+      "details": ["medida: 2\"", "medida: 2.1/2\""],
+      "src": "/moveis/00336-337.png",
+      "description": "Dobradiça para móveis FPP (ferro pintado de preto). Fornecida encartelada com duas peças e parafusos."
+    },
+    {
+      "ids": ["00570", "00580"],
+      "details": [
+        "10cm de comprimento. Distância entre furos - aproximadamente 8,7cm.",
+        "11,8cm de comprimento. Distância entre furos - aproximadamente 10,5cm."
+      ],
+      "src": "/moveis/00570-580.png",
+      "description": "Puxador \"Serralheiro\" cromado, aplicações diversas."
+    }
+  ]
+}

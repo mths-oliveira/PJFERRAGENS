@@ -11,15 +11,25 @@ function Sobre() {
 
       <Grid
         gridTemplateColumns="repeat(1, minmax(17.5rem, 1fr))"
-        width={['inherit', 'inherit', 'inherit', '50vw']}
         justifyContent="center"
-        gap={['1.5rem', '1.5rem', '2.5rem']}
-        marginY={['3rem', '2.5rem', '5rem']}
-        marginX={['2rem', '2.5rem', '5rem', '7.5rem', '15rem']}
+        gap={['2.25rem', '2.25rem', '2.25rem']}
+        marginY={['2.25rem', '2.25rem', '5rem']}
+        marginX={['2rem', '2.25rem', '5rem', '7.5rem', '15rem']}
         color="grayText"
       >
         <Stack spacing=".5rem">
-          <Heading as="h2" fontSize="2.5rem" color="grayDark" id="missao">
+          <Heading as="h2" fontSize="md" color="grayDark" id="missao">
+            Quem somos
+          </Heading>
+          <Text>
+            Há mais de dez anos no mercado, nos destacamos por fornecer
+            ferragens para portas e janelas, além de acessórios para o lar em
+            kits personalizados que facilitam a instalação e execução de
+            serviços.
+          </Text>
+        </Stack>
+        <Stack spacing=".5rem">
+          <Heading as="h2" fontSize="md" color="grayDark" id="missao">
             Missão
           </Heading>
           <Text>
@@ -28,16 +38,16 @@ function Sobre() {
             satisfação do consumidor final.
           </Text>
         </Stack>
-        <Stack spacing=".5rem" id="visao" marginTop="1rem">
-          <Heading as="h2" fontSize="2.5rem" color="grayDark">
+        <Stack spacing=".5rem" id="visao">
+          <Heading as="h2" fontSize="md" color="grayDark">
             Visão
           </Heading>
           <Text>
             Expandir nossa oferta de produtos em variedade e qualidade.
           </Text>
         </Stack>
-        <Stack spacing=".5rem" id="valores" marginTop="1rem">
-          <Heading as="h2" fontSize="2.5rem" color="grayDark">
+        <Stack spacing=".5rem" id="valores">
+          <Heading as="h2" fontSize="md" color="grayDark">
             Valores
           </Heading>
           <Text>

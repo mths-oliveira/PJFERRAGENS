@@ -1,0 +1,283 @@
+{
+  "list": [
+    ["Cantoneira", "Dobradiça"],
+    ["Fecho", "Fixador", "Kit roldana", "Limitador"],
+    ["Perfil", "Pino", "Puxador", "Trilho", "Visor"]
+  ],
+  "ferragens": [
+    {
+      "id": "00058",
+      "src": "/portas/0058.jpg",
+      "description": "Fixador para porta colonial FLO (ferro latonado e oxidado) dupla função. A esfera pode ser fixada no piso ou no rodapé. Fornecido encartelado com uma unidade, parafusos e buchas."
+    },
+    {
+      "ids": ["00124", "00125", "00126", "00124F", "00125F", "00126F"],
+      "details": [
+        "3\", encartelada com três peças e parafusos.",
+        "3.1/2\", encartelada com três peças e parafusos.",
+        "4\", encartelada com três peças e parafusos.",
+        "3\", caixa com 24 peças.",
+        "3\".1/2, caixa com 24 peças.",
+        "4\", caixa com 24 peças."
+      ],
+      "src": "/portas/00124.jpg",
+      "description": "Dobradiça em ferro natural (polido) para portas e portões. Fornecida encartelada ou em caixas."
+    },
+    {
+      "ids": ["00127", "00128"],
+      "details": ["medida: 1.1/2\"", "medida: 2\""],
+      "src": "/portas/00127.jpg",
+      "description": "Dobradiça para aplicações diversas galvanizada. Fornecida encartelada com duas peças e parafusos."
+    },
+
+    {
+      "id": "1255",
+      "src": "/portas/1255.jpg",
+      "description": "Visor para porta (olho mágico) cromado. Fornecido encartelado com uma peça."
+    },
+    {
+      "id": "00283",
+      "src": "/portas/0283.jpg",
+      "description": "Dobradiça para portas, acabamento \"ouro velho\" (antique) de 4\". Fornecida encartelada com 3 peças e parafusos."
+    },
+
+    {
+      "ids": ["00281", " 00282"],
+      "details": ["medida: 3\"", "medida: 3.1/2\""],
+      "src": "/portas/0281.jpg",
+      "description": "Dobradiça para portas, acabamento \"ouro velho\" (antique). Fornecida encartelada com 3 peças e parafusos."
+    },
+
+    {
+      "ids": ["00540", "00541"],
+      "details": ["medidas: 3.1/2\" x 2.1/2\"", "medidas: 3\" x 2.1/2\""],
+      "src": "/portas/0540.jpg",
+      "description": "Dobradiça FLO (ferro latonado e oxidado) para portas com pino bola e anéis. Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "ids": ["00542"],
+      "src": "/portas/0542.jpg",
+      "details": ["medidas: 3\" x 3\""],
+      "description": "Dobradiça FLO (ferro latonado e oxidado) para portas com pino bola e anéis. Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "ids": ["00543"],
+      "src": "/portas/0543.jpg",
+      "details": ["medidas: 3.1/2\" x 3\""],
+      "description": "Dobradiça FLO (ferro latonado e oxidado) para portas com pino bola e anéis. Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "id": "00138",
+      "src": "/portas/0138.jpg",
+      "description": "Dobradiça para portas galvanizada de 4\". Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "id": "00042",
+      "src": "/portas/0042.jpg",
+      "description": "Fixador para porta cromado modelo de rodapé. Fornecido encartelado com uma unidade, parafusos e buchas."
+    },
+
+    {
+      "ids": ["00121", "00122", "00123", "0121F", "0122F", "0123F"],
+      "details": [
+        "1.1/2\", cartela com duas unidades",
+        "2\", cartela com duas unidades.",
+        "2.1/2\", cartela com duas unidades.",
+        "1.1/2\", caixa com 24 unidades",
+        "2\", caixa com 24 unidades",
+        "2.1/2\", caixa com 24 unidades"
+      ],
+      "src": "/portas/0121.jpg",
+      "description": "Dobradiça de ferro natural (polido) para portas. Fornecida encartelada ou em caixas."
+    },
+    {
+      "id": "00277",
+      "src": "/portas/0277.jpg",
+      "description": "Dobradiça para portas FLO (ferro latonado e oxidado) de 3\". Fornecida encartelada com três peças e parafusos."
+    },
+
+    {
+      "id": "01126",
+      "src": "/portas/01126.jpg",
+      "description": "Fecho de segurança \"pega ladrão\" cromado para portas. Fornecido encartelado com uma peça e parafusos para instalação."
+    },
+
+    {
+      "id": "1256",
+      "src": "/portas/1256.jpg",
+      "description": "Visor para porta (olho mágico) Antique. Fornecido encartelado com uma peça."
+    },
+
+    {
+      "id": "00129",
+      "src": "/portas/00129.jpg",
+      "description": "Dobradiça galvanizada de 2.1/2\", uso geral, fornecida encartelada com duas peças e parafusos."
+    },
+    {
+      "id": "00041",
+      "src": "/portas/00041.jpg",
+      "description": "Fixador para porta cromado modelo de piso. Fornecido encartelado com uma unidade, parafusos e buchas"
+    },
+    {
+      "ids": ["00338", "00339"],
+      "details": ["medida: 3\"", "medida: 3.1/2\""],
+      "src": "/portas/0338.jpg",
+      "description": "Dobradiça FPP (ferro pintado de preto) para portas. Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "id": "00280",
+      "src": "/portas/0280.jpg",
+      "description": "Dobradiça FLO (ferro latonado e oxidado) para portas de 4\". Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "id": "00278",
+      "src": "/portas/0278.jpg",
+      "description": "Dobradiça FLO (ferro latonado e oxidado) para portas com pino bola de 3.1/2\". Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "id": "00279",
+      "src": "/portas/0279.jpg",
+      "description": "Dobradiça FLO (ferro latonado e oxidado) para portas de 3.1/2\". Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "ids": ["00548", "00549"],
+      "details": ["medida: 4\"", "medida: 6\""],
+      "src": "/portas/00548.jpg",
+      "description": "Dobradiça tipo leme galvanizada. Aplicações em portões, carrocerias de veículos, porteiras, etc. Fornecida encartelada com um par e parafusos."
+    },
+    {
+      "ids": ["00136", "00137"],
+      "details": ["medida: 3\"", "medida: 3.1/2\""],
+      "src": "/portas/0136.jpg",
+      "description": "Dobradiça tipo leme galvanizada. Aplicações em portões, carrocerias de veículos, porteiras, etc. Fornecida encartelada com um par e parafusos."
+    },
+    {
+      "ids": ["00845"],
+      "details": ["Medidas: 10x10 cm"],
+      "src": "/portas/0845.jpg",
+      "description": "Cantoneira para portas, janelas e móveis. Atribui reforço estrutural e ornamenta o objeto. Fornecida encartelada com um par e parafusos."
+    },
+    {
+      "id": "00941",
+      "src": "/portas/0941.jpg",
+      "description": "Puxador galvnizado para portas e moveis tipo alça, Dimensões: 17cm de comprimento, Distância entre os furos: Aproximadamente 15cm. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "ids": ["00544"],
+      "src": "/portas/00544.JPG",
+      "details": ["medidas: 4\" x 3\""],
+      "description": "Dobradiça FLO (ferro latonado e oxidado) para portas com pino bola e anéis. Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "ids": ["00545"],
+      "src": "/portas/00545.JPG",
+      "details": ["medidas: 3.1/2\" x 3\""],
+      "description": "Dobradiça cromada para portas com pino bola e anéis. Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "ids": ["00539"],
+      "src": "/portas/00539.JPG",
+      "details": ["medidas: 3.1/2\" x 2.1/2\""],
+      "description": "Dobradiça cromada para portas com pino bola e anéis. Fornecida encartelada com três peças e parafusos."
+    },
+    {
+      "ids": ["00500", "00600"],
+      "details": ["para portas até 100kg", "para portas até 200kg"],
+      "src": "/portas/0600.JPG",
+      "description": "Pino pivotante cromado para portas."
+    },
+    {
+      "ids": ["00501", "00601"],
+      "details": ["para portas até 100kg", "para portas até 200kg"],
+      "src": "/portas/0601.JPG",
+      "description": "Pino pivotante FLO (ferro latonado e oxidado) para portas."
+    },
+    {
+      "id": "00940",
+      "src": "/portas/0940.png",
+      "description": "Puxador para portas e móveis FLO (ferro latonado e oxidado) tipo alça. Dimensões: 17cm de comprimento. Distância entre os furos: Aproximadamente 15cm. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "ids": ["09130", "09132", "09136", "09138", "09140"],
+      "details": [
+        "medida: 30cm",
+        "medida: 40cm",
+        "medida: 60cm",
+        "medida: 80cm",
+        "medida: 100cm"
+      ],
+      "src": "/portas/Retangular.png",
+      "description": "Puxador em alumínio retangular (barra chata) duplo."
+    },
+    {
+      "ids": ["09129", "09131", "09135", "09137", "09139"],
+      "details": [
+        "medida: 30cm",
+        "medida: 40cm",
+        "medida: 60cm",
+        "medida: 80cm",
+        "medida: 100cm"
+      ],
+      "src": "/portas/Tubular.png",
+      "description": "Puxador em alumínio tubular duplo."
+    },
+    {
+      "id": "00489",
+      "src": "/portas/00489.png",
+      "description": "Trilho pantográfico abaulado 35x35mm (trilho superior). Fornecido em metros."
+    },
+    {
+      "ids": ["00017", "00018"],
+      "details": ["12cm de comprimento", "22cm de comprimento"],
+      "src": "/portas/00018.jpg",
+      "description": "Fecho \"unha\" FLO (ferro latonado e oxidado) de embutir para portas. Fornecido encartelado com uma peça e parafusos."
+    },
+    {
+      "id": "01003",
+      "src": "/portas/01003.jpg",
+      "description": "Kit roldana simples para porta de correr."
+    },
+    {
+      "id": "01005",
+      "src": "/portas/01005.jpg",
+      "description": "Kit roldana dupla para porta de correr."
+    },
+    {
+      "ids": ["00490"],
+      "src": "/portas/00490.jpg",
+      "details": ["medidas: 1/2\" x 16\""],
+      "description": "Perfil em \"U\" (trilho inferior). Fornecido em metros."
+    },
+    {
+      "ids": ["00336", "00337"],
+      "src": "/portas/00336.png",
+      "details": ["medida: 2\"", "medida: 2.1/2\""],
+      "description": "Dobradiça para móveis FPP (ferro pintado de preto). Fornecida encartelada com duas peças e parafusos."
+    },
+    {
+      "id": "00131",
+      "src": "/portas/00131.png",
+      "description": "Dobradiça para portas FLO (ferro latonado e oxidado) de 2.1/2\". Fornecida encartelada com duas peças e parafusos."
+    },
+    {
+      "id": "00552",
+      "src": "/portas/00552.png",
+      "description": "Dobradiça \"vai e vem\" (bang-bang) 3\" FPP (ferro pintado de preto). Fornecida avulsa."
+    },
+    {
+      "id": "00551",
+      "src": "/portas/00551.png",
+      "description": "Dobradiça \"vai e vem\" (bang-bang) 3\" cromada. Fornecida avulsa."
+    },
+    {
+      "id": "01402",
+      "src": "/portas/01402.png",
+      "description": "Limitador (parador) para porta de correr. Fornecido avulso."
+    },
+    {
+      "id": "01401",
+      "src": "/portas/01401_pino_guia.png",
+      "description": "Pino guia reto em alumínio para portas de correr. Fornecido avulso."
+    }
+  ]
+}

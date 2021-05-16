@@ -1,0 +1,286 @@
+{
+  "list": [
+    ["Bico", "Botão", "Cabide", "Cantoneira", "Cestinha"],
+    ["Emenda", "Extensão", "Gancho"],
+    ["Letra", "Número"],
+    ["Ralinho", "Rolete", "Suporte"]
+  ],
+  "ferragens": [
+    {
+      "id": "01398",
+      "src": "/utilidades/01398.jpg",
+      "description": "Rolete p/ papel higiênico plástico, fornecido encartelado com uma peça."
+    },
+    {
+      "id": "03600",
+      "src": "/utilidades/3600.jpg",
+      "description": "Cestinha plástica cromada p/ válvula americana, fornecida encartelada com uma unidade."
+    },
+    {
+      "id": "00727",
+      "src": "/utilidades/0727.jpg",
+      "description": "Gancho para rede de parafusar galvanizado, suporta um peso total de 100Kg, fornecido encartelado com um par, parafusos e buchas."
+    },
+
+    {
+      "ids": ["00023", "00032", "0023F", "0032F"],
+      "details": [
+        "ABS - Encartelado",
+        "ZAMAC - Encartelado",
+        "ABS - A granel",
+        "ZAMAC - A granel"
+      ],
+      "src": "/utilidades/00032.JPG",
+      "description": "Botão francês cromado para fixação de vidros e espelhos em plástico ABS ou liga de metal Zamac. Fornecidos encartelados com quatro unidades, parafusos e buchas ou a granel."
+    },
+
+    {
+      "ids": ["01124"],
+      "details": ["8cm de comprimento"],
+      "src": "/utilidades/1124.jpg",
+      "description": "Extensão para torneiras de 1/2\". Fornecida encartelada com uma peça."
+    },
+
+    {
+      "ids": ["01123"],
+      "details": ["6cm de comprimento"],
+      "src": "/utilidades/1123.jpg",
+      "description": "Extensão para torneiras de 1/2\". Fornecida encartelada com uma peça."
+    },
+    {
+      "ids": ["01122"],
+      "details": ["4cm de comprimento"],
+      "src": "/utilidades/1122.jpg",
+      "description": "Extensão para torneiras de 1/2\". Fornecida encartelada com uma peça."
+    },
+    {
+      "id": "00726",
+      "src": "/utilidades/0726.jpg",
+      "description": "Gancho para rede de chumbar galvanizado, suporta um peso total de 100Kg, fornecido encartelado com um par."
+    },
+    {
+      "id": "00030",
+      "src": "/utilidades/00030.jpeg",
+      "description": "Cabide plástico com fixação por ventosa. Fornecido encartelado com uma peça."
+    },
+    {
+      "ids": ["00886", "22535"],
+      "details": [
+        "Encartelada com três peças e parafusos.",
+        "Pacote com cem peças e parafusos."
+      ],
+      "src": "/utilidades/0886.jpg",
+      "description": "Cantoneira para trilho de cortina bicromatizada. Fornecida encartelada e em pacotes."
+    },
+    {
+      "ids": ["00901"],
+      "details": ["Dimensões aproximadas (CxLxA): 7cm x 8cm x 0,5cm"],
+      "src": "/utilidades/00901.png",
+      "description": "Letra colonial plástica FLO (ferro latonado e oxidado) \"A\". Fornecida encartelada com uma peça, parafusos e buchas."
+    },
+    {
+      "ids": ["00902"],
+      "details": ["Dimensões aproximadas (CxLxA): 7cm x 8cm x 0,5cm"],
+      "src": "/utilidades/00902.png",
+      "description": "Letra colonial plástica FLO (ferro latonado e oxidado) \"B\". Fornecida encartelada com uma peça, parafusos e buchas."
+    },
+    {
+      "ids": ["00903"],
+      "details": ["Dimensões aproximadas (CxLxA): 7cm x 8cm x 0,5cm"],
+      "src": "/utilidades/00903.png",
+      "description": "Letra colonial plástica FLO (ferro latonado e oxidado) \"C\". Fornecida encartelada com uma peça, parafusos e buchas."
+    },
+    {
+      "ids": ["00904"],
+      "details": ["Dimensões aproximadas (CxLxA): 7cm x 8cm x 0,5cm"],
+      "src": "/utilidades/00904.png",
+      "description": "Letra colonial plástica FLO (ferro latonado e oxidado) \"D\". Fornecida encartelada com uma peça, parafusos e buchas."
+    },
+    {
+      "ids": [
+        "00741",
+        "00742",
+        "00743",
+        "00744",
+        "00745",
+        "00746",
+        "00747",
+        "00748",
+        "00749",
+        "00750"
+      ],
+      "details": [
+        "número: 1",
+        "número: 2",
+        "número: 3",
+        "número: 4",
+        "número: 5",
+        "número: 6",
+        "número: 7",
+        "número: 8",
+        "número: 9",
+        "número: 0"
+      ],
+      "src": "/utilidades/00742.png",
+      "description": "Número / algarismo colonial plástico FLO (ferro latonado e oxidado). Dimensões aproximadas (CxLxA): 7cm x 12cm x 0,5cm Fornecido encartelado com uma peça, parafusos e buchas."
+    },
+    {
+      "id": "00730",
+      "src": "/utilidades/00730.png",
+      "description": "Gancho para rede de parafusar FPP (ferro pintado de preto), suporta um peso total de 100Kg, fornecido encartelado com um par, parafusos e buchas."
+    },
+    {
+      "id": "00729",
+      "src": "/utilidades/00729.png",
+      "description": "Gancho para rede de parafusar luxo FLO (ferro latonado e oxidado), suporta um peso total de 100Kg, fornecido encartelado com uma peça, parafusos e buchas."
+    },
+
+    {
+      "ids": ["00801"],
+      "details": ["Dimensões aproximadas (CxLxA): 7cm x 8cm x 0,5cm"],
+      "src": "/utilidades/0801N.png",
+      "description": "Letra colonial metálica FLO (ferro latonado e oxidado) \"A\". Fornecida encartelada com uma peça, parafusos e buchas."
+    },
+    {
+      "ids": ["00802"],
+      "details": ["Dimensões aproximadas (CxLxA): 7cm x 8cm x 0,5cm"],
+      "src": "/utilidades/0802N.png",
+      "description": "Letra colonial metálica FLO (ferro latonado e oxidado) \"B\". Fornecida encartelada com uma peça, parafusos e buchas."
+    },
+    {
+      "ids": [
+        "00751",
+        "00752",
+        "00753",
+        "00754",
+        "00755",
+        "00756",
+        "00757",
+        "00758",
+        "00759",
+        "00760"
+      ],
+      "details": [
+        "número: 1",
+        "número: 2",
+        "número: 3",
+        "número: 4",
+        "número: 5",
+        "número: 6",
+        "número: 7",
+        "número: 8",
+        "número: 9",
+        "número: 0"
+      ],
+      "src": "/utilidades/0755N.png",
+      "description": "Número / algarismo colonial metálico FLO (ferro latonado e oxidado). Dimensões aproximadas (CxLxA): 7cm x 12cm x 0,5cm. Fornecido encartelado com uma peça, parafusos e buchas."
+    },
+
+    {
+      "ids": ["00803"],
+      "details": ["Dimensões aproximadas (CxLxA): 7cm x 8cm x 0,5cm"],
+      "src": "/utilidades/0803N.png",
+      "description": "Letra colonial metálica FLO (ferro latonado e oxidado) \"C\". Fornecida encartelada com uma peça, parafusos e buchas."
+    },
+    {
+      "ids": [
+        "00071",
+        "00072",
+        "00073",
+        "00074",
+        "00075",
+        "00076",
+        "00077",
+        "00078",
+        "00079",
+        "00080"
+      ],
+      "details": [
+        "número: 1",
+        "número: 2",
+        "número: 3",
+        "número: 4",
+        "número: 5",
+        "número: 6",
+        "número: 7",
+        "número: 8",
+        "número: 9",
+        "número: 0"
+      ],
+      "src": "/utilidades/00071N.png",
+      "description": "Número / algarismo colonial metálico para apartamento FLO (ferro latonado e oxidado). Dimensões aproximadas (CxLxA): 2cm x 3,5cm x 0,3cm. Fornecido encartelado com uma peça e parafusos."
+    },
+
+    {
+      "ids": ["00364", "00366", "00368"],
+      "details": ["tamanho pequeno", "tamanho médio", "tamanho grande"],
+      "src": "/utilidades/00364.png",
+      "description": "Suporte regulável tipo tucano para vidros. Fornecido encartelado com uma peça e parafusos."
+    },
+
+    {
+      "id": "00012",
+      "src": "/utilidades/00012P.png",
+      "description": "Cabide duplo de metal cromado em forma de laço. Fornecido encartelado com uma peça, para fusos e buchas."
+    },
+    {
+      "ids": ["00014", "00019"],
+      "details": ["tamanho pequeno", "tamanho grande"],
+      "src": "/utilidades/00014.jpg",
+      "description": "Cabide de metal simples cromado. Fornecido encartelado com uma peça, parafuso e bucha."
+    },
+    {
+      "id": "00013",
+      "src": "/utilidades/00013.jpg",
+      "description": "Cabide duplo de metal \"Chapolin\" cromado. Fornecido encartelado com uma peça, parafusos e buchas."
+    },
+    {
+      "id": "00026",
+      "src": "/utilidades/00026.jpg",
+      "description": "Cabide duplo de metal cromado fornecido encartelado com uma peça, parafusos e buchas."
+    },
+    {
+      "id": "00027",
+      "src": "/utilidades/00027.png",
+      "description": "Cabide duplo de metal fumê fornecido encartelado com uma peça, parafusos e buchas."
+    },
+    {
+      "ids": ["03601", "03602"],
+      "details": ["tamanho pequeno", "tamanho grande"],
+      "src": "/utilidades/03602.jpg",
+      "description": "Ralinho japonês para pia."
+    },
+    {
+      "ids": ["03603", "03604"],
+      "details": ["medidas: 1/2\" x 1/2\"", "medidas: 3/4\" x 1/2\""],
+      "src": "/utilidades/03604.jpg",
+      "description": "Bico para torneira em zamac. Fornecido encartelado com uma peça."
+    },
+    {
+      "ids": ["03605"],
+      "details": ["medidas: 1/2\" x 1/2\""],
+      "src": "/utilidades/03605.jpg",
+      "description": "Emenda para mangueira. Fornecido encartelado com uma peça."
+    },
+    {
+      "ids": ["03700", "03800", "03900", "3700F", "3800F", "3900F"],
+      "details": [
+        "Encartelados com parafusos e buchas, para vidros de espessura 6mm",
+        "Encartelados com parafusos e buchas, para vidros de espessura 8mm",
+        "Encartelados com parafusos e buchas, para vidros de espessura 10mm",
+        "A granel, para vidros de espessura 6mm ",
+        "A granel, para vidros de espessura 8mm ",
+        "A granel, para vidros de espessura 10mm "
+      ],
+      "src": "/utilidades/03700-03900.png",
+      "description": "Suporte fenda para superfície de vidro em metal cromado. Fornecido encartelado ou a granel."
+    },
+
+    {
+      "ids": ["00804"],
+      "details": ["Dimensões aproximadas (CxLxA): 7cm x 8cm x 0,5cm"],
+      "src": "/utilidades/00804.png",
+      "description": "Letra colonial metálica FLO (ferro latonado e oxidado) \"D\". Fornecida encartelada com uma peça, parafusos e buchas."
+    }
+  ]
+}
