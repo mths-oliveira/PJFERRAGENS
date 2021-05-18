@@ -128,7 +128,9 @@ function Navbar({ ...rest }: FlexProps) {
                       src={url}
                       onClick={() => {
                         push('/');
-                        push(url);
+                        setTimeout(() => {
+                          push(url);
+                        }, 200);
                       }}
                       padding=".75rem 1.5rem"
                       width="100%"

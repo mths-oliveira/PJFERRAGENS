@@ -40,6 +40,8 @@ function Cart() {
 
     setCartLength(cartList.length);
 
+    window.scrollTo({ top: 0 });
+
     setTimeout(() => {
       onOpen();
     }, 600);
