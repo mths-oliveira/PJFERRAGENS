@@ -49,7 +49,7 @@ function Navbar({ ...rest }: FlexProps) {
 
   return (
     <>
-      <Flex height="3.5rem" widht="100%">
+      <Flex height={['0', '0', '3.5rem']} widht="100%">
         <Flex
           width={['100vw', '100vw', 'calc(100% - .75rem)']}
           bg="offWhite"

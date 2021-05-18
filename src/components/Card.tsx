@@ -159,7 +159,7 @@ function Card({ src, description, ids, id, details }: Props) {
                       borderBottom="2px solid rgba(0,0,0,.1)"
                       transition=".2s ease"
                       _hover={{ borderBottom: '2px solid #282828' }}
-                      onClick={() => setIsHidden(!isHidden)}                      
+                      onClick={() => setIsHidden(!isHidden)}
                     >
                       <Text
                         paddingBottom=".5rem"

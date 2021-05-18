@@ -5,7 +5,7 @@ interface Props extends FlexProps {}
 function Wraper({ children, ...rest }: Props) {
   return (
     <Flex
-      height="100vh"
+      height={['fit-content', 'fit-content', '100vh']}
       width={['100vw', '100vw', '100vw', 'calc(100vw - .15rem)']}
       flexDir="column"
       overflowX="hidden"
