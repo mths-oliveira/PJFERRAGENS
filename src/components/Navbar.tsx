@@ -130,7 +130,7 @@ function Navbar({ ...rest }: FlexProps) {
                         push('/');
                         setTimeout(() => {
                           push(url);
-                        }, 200);
+                        }, 100);
                       }}
                       padding=".75rem 1.5rem"
                       width="100%"

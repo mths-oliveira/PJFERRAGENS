@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import Wraper from '../components/Wraper';
 import Footer from '../components/Footer';
 import Spiner from '../components/Spiner';
-import { useCallback, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 interface Pages {
   url: string;
@@ -64,6 +64,12 @@ function App() {
     const visibleHeight = height + top;
 
     setIsHidden(visibleHeight > navbarHeight);
+  }, []);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      handleScroll();
+    });
   }, []);
 
   return (
