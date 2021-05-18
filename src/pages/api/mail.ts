@@ -36,7 +36,7 @@ export default async function sendEmail(
   try {
     const response = await transporter.sendMail({
       from: process.env.USERMAIL,
-      to: 'pjferragens@gmail.com',
+      to: process.env.USERMAIL, //'pjferragens@gmail.com',
       replyTo: email,
       subject: 'Contato através do site: http://www.pjferragens.com.br',
       html: `
