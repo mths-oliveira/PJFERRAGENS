@@ -12,10 +12,15 @@ function Footer() {
       bg="offWhite"
       flexDir="column"
       paddingX={['2rem', '2.5rem', '5rem', '7.5rem', '15rem']}
-      paddingY="3.25rem"
+      paddingY="3rem"
       color="grayText"
     >
-      <Heading as="h2" fontSize="md" color="grayDark" textTransform="uppercase">
+      <Heading
+        as="h2"
+        fontSize={['2rem', '2rem', 'md']}
+        color="grayDark"
+        textTransform="uppercase"
+      >
         Contato
       </Heading>
       <Stack
@@ -63,7 +68,6 @@ function Footer() {
           display="flex"
           fontSize="sm"
           target="_blank"
-          alignItems="center"
           href="https://www.google.com/maps/place/19%C2%B048'59.4%22S+43%C2%B057'41.0%22W/@-19.8164857,-43.9635732,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-19.8164857!4d-43.9613845?hl=pt-BR"
         >
           <Text

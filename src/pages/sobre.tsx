@@ -18,12 +18,17 @@ function Sobre() {
         gridTemplateColumns="repeat(1, minmax(17.5rem, 1fr))"
         justifyContent="center"
         gap={['2.25rem', '2.25rem', '2.25rem']}
-        marginY={['2.25rem', '2.25rem', '5rem']}
+        marginY={['2rem', '2.25rem', '5rem']}
         marginX={['2rem', '2.25rem', '5rem', '7.5rem', '15rem']}
         color="grayText"
       >
         <Stack spacing=".5rem">
-          <Heading as="h2" fontSize="md" color="grayDark" id="missao">
+          <Heading
+            as="h2"
+            fontSize={['2rem', '2rem', 'md']}
+            color="grayDark"
+            id="missao"
+          >
             Quem somos
           </Heading>
           <Text>
@@ -34,7 +39,12 @@ function Sobre() {
           </Text>
         </Stack>
         <Stack spacing=".5rem">
-          <Heading as="h2" fontSize="md" color="grayDark" id="missao">
+          <Heading
+            as="h2"
+            fontSize={['2rem', '2rem', 'md']}
+            color="grayDark"
+            id="missao"
+          >
             Missão
           </Heading>
           <Text>
@@ -44,7 +54,7 @@ function Sobre() {
           </Text>
         </Stack>
         <Stack spacing=".5rem" id="visao">
-          <Heading as="h2" fontSize="md" color="grayDark">
+          <Heading as="h2" fontSize={['2rem', '2rem', 'md']} color="grayDark">
             Visão
           </Heading>
           <Text>
@@ -56,7 +66,7 @@ function Sobre() {
           id="valores"
           paddingBottom={['1rem', '1rem', '0']}
         >
-          <Heading as="h2" fontSize="md" color="grayDark">
+          <Heading as="h2" fontSize={['2rem', '2rem', 'md']} color="grayDark">
             Valores
           </Heading>
           <Text>

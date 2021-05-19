@@ -45,8 +45,9 @@ function CardSlider({ title, children, ...rest }: Props) {
     <Flex flexDir="column" width="100%" height="fit-content">
       <Heading
         color="grayDark"
-        fontSize={['1.75rem', 'md']}
-        paddingX={['1.5rem', '2.5rem', '5rem', '7.5rem', '15rem']}
+        fontSize={['2rem', 'md']}
+        paddingLeft={['1.5rem', '2.5rem', '5rem', '7.5rem', '15rem']}
+        paddingRight={['.5rem', '2.5rem', '5rem', '7.5rem', '15rem']}
       >
         {title}
       </Heading>
