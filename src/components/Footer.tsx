@@ -28,8 +28,8 @@ function Footer() {
         <Link
           _active={{}}
           _focus={{}}
-          _hover={{ color: 'blue.400', textDecoration: 'underline' }}
-          _visited={{ color: 'black', _hover: { color: 'blue.400' } }}
+          _hover={{ color: 'red', textDecoration: 'underline' }}
+          _visited={{ color: 'black', _hover: { color: 'red' } }}
           width="fit-content"
           display="flex"
           target="_blank"
@@ -45,8 +45,8 @@ function Footer() {
           target="_blank"
           _active={{}}
           _focus={{}}
-          _hover={{ color: 'blue.400', textDecoration: 'underline' }}
-          _visited={{ color: 'black', _hover: { color: 'blue.400' } }}
+          _hover={{ color: 'red', textDecoration: 'underline' }}
+          _visited={{ color: 'black', _hover: { color: 'red' } }}
           width="fit-content"
           display="flex"
           alignItems="center"
@@ -57,8 +57,8 @@ function Footer() {
         <Link
           _active={{}}
           _focus={{}}
-          _hover={{ color: 'blue.400', textDecoration: 'underline' }}
-          _visited={{ color: 'black', _hover: { color: 'blue.400' } }}
+          _hover={{ color: 'red', textDecoration: 'underline' }}
+          _visited={{ color: 'black', _hover: { color: 'red' } }}
           width="fit-content"
           display="flex"
           fontSize="sm"
@@ -81,9 +81,9 @@ function Footer() {
       <Link
         fontSize=".875rem"
         href="mailto:contato.mths@outlook.com"
-        _visited={{ color: 'black', _hover: { color: 'blue.400' } }}
+        _visited={{ color: 'black', _hover: { color: 'red' } }}
         _active={{}}
-        _hover={{ color: 'blue.400', textDecoration: 'underline' }}
+        _hover={{ color: 'red', textDecoration: 'underline' }}
         _focus={{}}
         width="fit-content"
       >

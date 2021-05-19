@@ -31,6 +31,7 @@ function Spiner({ ...rest }: Props) {
           color="grayDark"
           trackColor="tranparent"
           size="def"
+          thickness="8px"
           display={isLoading ? 'inline-block' : 'none'}
         />
       )}

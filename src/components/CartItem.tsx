@@ -15,7 +15,7 @@ import {
 } from '@chakra-ui/react';
 
 import { CartItens, useCart } from '../context/cart';
-import { useCallback } from 'react';
+import { memo, useCallback } from 'react';
 
 function CartItem({ description, id, src, amount, details }: CartItens) {
   const { cartList, setCartList } = useCart();
@@ -161,4 +161,4 @@ function CartItem({ description, id, src, amount, details }: CartItens) {
   );
 }
 
-export default CartItem;
+export default memo(CartItem);

@@ -67,9 +67,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    window.addEventListener('scroll', () => {
-      handleScroll();
-    });
+    window.addEventListener('scroll', handleScroll);
   }, []);
 
   return (
@@ -90,11 +88,11 @@ function App() {
       >
         <Heading
           as="h1"
-          fontSize="md"
+          fontSize={['md']}
           color="garyDark"
-          margin={['2.25rem 0', '2.25rem 0', '6rem 0 2.25rem']}
+          margin={['2.25rem 0', '2.25rem 0', '4.5rem 0 2.25rem']}
           textTransform="uppercase"
-          textAlign="center"
+          textAlign={['center', 'center', 'left']}
         >
           Categorias em ferragens
         </Heading>

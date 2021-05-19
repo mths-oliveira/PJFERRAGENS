@@ -13,12 +13,12 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 
-import { useCallback, useState } from 'react';
+import { memo, useCallback, useState } from 'react';
 
 import { MdArrowForward, MdKeyboardArrowUp } from 'react-icons/md';
 import { FaCartPlus } from 'react-icons/fa';
 
-import { CartItens, useCart } from '../context/cart';
+import { CartItens } from '../context/cart';
 
 interface Props {
   description: string;
@@ -26,11 +26,20 @@ interface Props {
   details?: string[];
   id?: string;
   ids?: string[];
+  cartList: CartItens[];
+  setCartList: (cart: CartItens[]) => void;
 }
 
-function Card({ src, description, ids, id, details }: Props) {
+function Card({
+  src,
+  description,
+  ids,
+  id,
+  details,
+  cartList,
+  setCartList,
+}: Props) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { cartList, setCartList } = useCart();
 
   const handleCartList = useCallback(
     (item: CartItens) => {
@@ -110,7 +119,7 @@ function Card({ src, description, ids, id, details }: Props) {
           textTransform="uppercase"
           fontWeight="bold"
           justifyContent="space-between"
-          _hover={{ color: 'blue.400', textDecoration: 'underline' }}
+          _hover={{ color: 'red', textDecoration: 'underline' }}
           color="grayDark"
         >
           <Text>Detalhes do produto</Text>
@@ -271,4 +280,4 @@ function Card({ src, description, ids, id, details }: Props) {
   );
 }
 
-export default Card;
+export default memo(Card);

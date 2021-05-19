@@ -19,6 +19,7 @@ import { useRouter } from 'next/router';
 
 import { MdMenu, MdKeyboardArrowDown } from 'react-icons/md';
 import Cart from './Cart';
+import { useCart } from '../context/cart';
 
 const products = {
   title: 'Produtos',
@@ -41,11 +42,13 @@ const about = {
 };
 
 function Navbar({ ...rest }: FlexProps) {
-  const { push } = useRouter();
+  const { push, asPath } = useRouter();
 
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const [isDropDonwOpen, setIsDropDonwOpen] = useState(true);
+
+  const cartProps = useCart();
 
   return (
     <>
@@ -68,7 +71,7 @@ function Navbar({ ...rest }: FlexProps) {
             <Center as="button" height="2.5rem" width="2.5rem" onClick={onOpen}>
               <MdMenu fontSize="1.5rem" />
             </Center>
-            <Cart />
+            <Cart {...cartProps} />
           </Flex>
 
           <Center as="button" onClick={() => push('/')} height="2.5rem">
@@ -127,7 +130,9 @@ function Navbar({ ...rest }: FlexProps) {
                       key={`${url}_${i}`}
                       src={url}
                       onClick={() => {
-                        push('/');
+                        if (url !== '/' && asPath !== '/') {
+                          push('/');
+                        }
                         setTimeout(() => {
                           push(url);
                         }, 100);

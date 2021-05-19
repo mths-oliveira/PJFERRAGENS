@@ -8,7 +8,7 @@ import {
   Stack,
   StackProps,
 } from '@chakra-ui/react';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { memo, useCallback, useEffect, useRef, useState } from 'react';
 
 interface Props extends StackProps {
   title: string;
@@ -45,7 +45,7 @@ function CardSlider({ title, children, ...rest }: Props) {
     <Flex flexDir="column" width="100%" height="fit-content">
       <Heading
         color="grayDark"
-        fontSize={['1.875rem', '1.875rem', 'md']}
+        fontSize={['1.75rem', 'md']}
         paddingX={['1.5rem', '2.5rem', '5rem', '7.5rem', '15rem']}
       >
         {title}
@@ -96,4 +96,4 @@ function CardSlider({ title, children, ...rest }: Props) {
   );
 }
 
-export default CardSlider;
+export default memo(CardSlider);

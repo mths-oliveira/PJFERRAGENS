@@ -1,4 +1,5 @@
 import { Flex, FlexProps } from '@chakra-ui/react';
+import { memo } from 'react';
 
 interface Props extends FlexProps {}
 
@@ -17,4 +18,4 @@ function Wraper({ children, ...rest }: Props) {
   );
 }
 
-export default Wraper;
+export default memo(Wraper);

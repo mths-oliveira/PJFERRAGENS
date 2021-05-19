@@ -6,7 +6,12 @@ import Spiner from '../components/Spiner';
 
 function Sobre() {
   return (
-    <Flex flexDir="column" minHeight="100vh" justifyContent="space-between">
+    <Flex
+      flexDir="column"
+      minHeight="100vh"
+      justifyContent="space-between"
+      paddingTop={['3.5rem', '3.5rem', '0']}
+    >
       <Navbar />
 
       <Grid
@@ -46,7 +51,11 @@ function Sobre() {
             Expandir nossa oferta de produtos em variedade e qualidade.
           </Text>
         </Stack>
-        <Stack spacing=".5rem" id="valores">
+        <Stack
+          spacing=".5rem"
+          id="valores"
+          paddingBottom={['1rem', '1rem', '0']}
+        >
           <Heading as="h2" fontSize="md" color="grayDark">
             Valores
           </Heading>

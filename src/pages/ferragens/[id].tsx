@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 
-import { useEffect, useState } from 'react';
+import { memo, useEffect, useState } from 'react';
 import { Stack } from '@chakra-ui/react';
 
 import { getItemsById } from '../../data';
@@ -13,6 +13,7 @@ import Footer from '../../components/Footer';
 import Spiner from '../../components/Spiner';
 import Card from '../../components/Card';
 import CardSlider from '../../components/CardSlider';
+import { useCart } from '../../context/cart';
 
 function Ferragens() {
   const { query } = useRouter();
@@ -20,6 +21,8 @@ function Ferragens() {
   const [sectionTitles, setSectionTitles] = useState<string[]>([]);
 
   const [sectionItems, setSectionItems] = useState<Product[][]>([]);
+
+  const { setCartList, cartList } = useCart();
 
   useEffect(() => {
     const { ferragens, list } = getItemsById(query.id);
@@ -46,7 +49,12 @@ function Ferragens() {
         {sectionTitles.map((title, i) => (
           <CardSlider title={title} key={`${query.id}_${i}`}>
             {sectionItems[i].map(({ ...rest }, i) => (
-              <Card {...rest} key={`${rest.src}_${i}`} />
+              <Card
+                {...rest}
+                key={`${rest.src}_${i}`}
+                cartList={cartList}
+                setCartList={setCartList}
+              />
             ))}
           </CardSlider>
         ))}
@@ -57,4 +65,4 @@ function Ferragens() {
   );
 }
 
-export default Ferragens;
+export default memo(Ferragens);

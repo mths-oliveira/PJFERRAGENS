@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, memo, useContext, useEffect, useState } from 'react';
 
 import { BoxProps } from '@chakra-ui/layout';
 
@@ -27,9 +27,9 @@ const cookie = Cookies.get('cart') || '[]';
 
 const cart: CartItens[] = JSON.parse(cookie);
 
-export default function Provider({ children }: Props) {
+function Provider({ children }: Props) {
   const [cartList, setCartList] = useState<CartItens[]>(cart);
-  const [cartLength, setCartLength] = useState<number>(cart.length);
+  const [cartLength, setCartLength] = useState<number>(0);
 
   return (
     <CartContext.Provider
@@ -43,5 +43,11 @@ export default function Provider({ children }: Props) {
 export function useCart() {
   const context = useContext(CartContext);
 
+  useEffect(() => {
+    context.setCartLength(context.cartList.length);
+  }, []);
+
   return context;
 }
+
+export default memo(Provider);

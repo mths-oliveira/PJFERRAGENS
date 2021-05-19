@@ -17,7 +17,7 @@ import {
   Stack,
   Text,
 } from '@chakra-ui/react';
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { memo, useCallback, useEffect, useRef, useState } from 'react';
 import {
   MdCheck,
   MdClose,
@@ -347,4 +347,4 @@ function Form({ onClose, isOpen }: Props) {
   );
 }
 
-export default Form;
+export default memo(Form);

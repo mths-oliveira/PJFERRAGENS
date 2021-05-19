@@ -15,23 +15,30 @@ import {
 
 import { MdShoppingCart } from 'react-icons/md';
 
-import { useCallback, useEffect } from 'react';
+import { memo, useCallback, useEffect, useState } from 'react';
 
-import { useCart } from '../context/cart';
+import { CartItens } from '../context/cart';
 import CartItem from './CartItem';
 import Cookies from 'js-cookie';
 import Form from './Form';
 
-function Cart() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+interface UseCart {
+  cartList: CartItens[];
+  setCartList: (cart: CartItens[]) => void;
+  cartLength: number;
+  setCartLength: (num: number) => void;
+}
 
-  const { cartList, setCartList, cartLength, setCartLength } = useCart();
+function Cart({ cartList, setCartList, cartLength, setCartLength }: UseCart) {
+  const { isOpen, onOpen, onClose } = useDisclosure();
 
   const clearCart = useCallback(() => {
     setCartList([]);
 
     onClose();
   }, []);
+
+  const [first, setFirst] = useState(true);
 
   useEffect(() => {
     Cookies.set('cart', JSON.stringify(cartList));
@@ -40,10 +47,18 @@ function Cart() {
 
     setCartLength(cartList.length);
 
+    if (first) return;
+
     setTimeout(() => {
       onOpen();
-    }, 600);
-  }, [cartList]);
+    }, 500);
+  }, [cartList, first]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setFirst(false);
+    }, 500);
+  }, []);
 
   const {
     isOpen: isOpenForm,
@@ -58,10 +73,6 @@ function Cart() {
       onOpenForm();
     }, 400);
   }, [isOpenForm]);
-
-  useEffect(() => {
-    setCartLength(cartList.length);
-  }, [cartList]);
 
   return (
     <>
@@ -173,4 +184,4 @@ function Cart() {
   );
 }
 
-export default Cart;
+export default memo(Cart);
