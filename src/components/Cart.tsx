@@ -38,7 +38,7 @@ function Cart({ cartList, setCartList, cartLength, setCartLength }: UseCart) {
     onClose();
   }, []);
 
-  const [first, setFirst] = useState(true);
+  const [isFirst, setIsFirst] = useState(true);
 
   useEffect(() => {
     Cookies.set('cart', JSON.stringify(cartList));
@@ -47,16 +47,16 @@ function Cart({ cartList, setCartList, cartLength, setCartLength }: UseCart) {
 
     setCartLength(cartList.length);
 
-    if (first) return;
+    if (isFirst) return;
 
     setTimeout(() => {
       onOpen();
     }, 500);
-  }, [cartList, first]);
+  }, [cartList, isFirst]);
 
   useEffect(() => {
     setTimeout(() => {
-      setFirst(false);
+      setIsFirst(false);
     }, 500);
   }, []);
 
@@ -109,7 +109,7 @@ function Cart({ cartList, setCartList, cartLength, setCartLength }: UseCart) {
         <ModalContent
           maxWidth="22.5rem"
           margin="0"
-          maxHeight={['100vh', '100vh', 'calc(100vh - 4rem)']}
+          maxHeight="calc(100vh - 4rem)"
           height="fit-content"
           boxShadow="none"
         >
@@ -119,6 +119,7 @@ function Cart({ cartList, setCartList, cartLength, setCartLength }: UseCart) {
             _hover={{}}
             size="md"
             bg="white"
+            zIndex="1000"
           />
           <ModalBody padding="0" id="card" bg="white">
             <Stack margin="3rem 0 1.5rem" spacing="2rem">
