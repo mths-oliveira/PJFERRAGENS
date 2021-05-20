@@ -144,7 +144,7 @@ function Card({
           boxShadow="none"
         >
           <ModalCloseButton _focus={{}} _active={{}} _hover={{}} size="md" />
-          <ModalBody padding="0" id="card">
+          <ModalBody padding="0" overflow="visible">
             <Center height="20rem">
               <Image
                 src={src}
@@ -196,7 +196,7 @@ function Card({
                       overflow="hidden"
                       bottom="calc(100% + 1rem)"
                       left="0"
-                      zIndex="100"
+                      zIndex="1000"
                       transition=".2s ease"
                       opacity={isHidden ? 0 : 1}
                       pointerEvents={isHidden ? 'none' : 'initial'}

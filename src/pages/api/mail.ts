@@ -38,7 +38,7 @@ export default async function sendEmail(
       from: process.env.USERMAIL,
       to: 'pjferragens@gmail.com',
       replyTo: email,
-      subject: 'Contato através do site: http://www.pjferragens.com.br',
+      subject: 'Contato através do site: www.pjferragens.com.br',
       html: `
       <p style="font-size: 16px; color: #565857;"><strong>Nome:</strong> ${name}</p>
       <p style="font-size: 16px; color: #565857;"><strong>E-mail:</strong> ${email}</p>
