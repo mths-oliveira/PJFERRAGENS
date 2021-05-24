@@ -109,7 +109,7 @@ function CartItem({ description, id, src, amount, details }: CartItens) {
               padding=".5rem .75rem"
               color="black"
               textAlign="center"
-              border="1px solid #282828"
+              boxShadow="sm"
               bg="white"
               borderRadius="sm"
               fontWeight="700"
