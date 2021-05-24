@@ -229,8 +229,7 @@ function Form({ onClose, isOpen }: Props) {
                     transition=".2s ease"
                     bg="white"
                     boxShadow="line"
-                    _hover={{ boxShadow: 'sm' }}
-                    disabled={isDisabled ? true : undefined}
+                    _hover={{ boxShadow: 'sm' }}                    
                     onClick={onClose}
                   >
                     Cancelar

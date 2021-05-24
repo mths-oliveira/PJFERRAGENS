@@ -68,7 +68,7 @@ function Footer() {
           display="flex"
           fontSize="sm"
           target="_blank"
-          href="https://www.google.com/maps/place/19%C2%B048'59.4%22S+43%C2%B057'41.0%22W/@-19.8164857,-43.9635732,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-19.8164857!4d-43.9613845?hl=pt-BR"
+          href="https://www.google.com/maps/place/R.+Rosa+Zandona,+128+-+Venda+Nova,+Belo+Horizonte+-+MG,+31510-050/@-19.8165118,-43.9612814,17z/data=!4m13!1m7!3m6!1s0xa68fe9b214955f:0xc5f783f0dc1c1e9d!2sR.+Rosa+Zandona,+128+-+Venda+Nova,+Belo+Horizonte+-+MG,+31510-050!3b1!8m2!3d-19.8164447!4d-43.9613243!3m4!1s0xa68fe9b214955f:0xc5f783f0dc1c1e9d!8m2!3d-19.8164447!4d-43.9613243"
         >
           <Text
             as={FiMapPin}
@@ -77,8 +77,7 @@ function Footer() {
             flexShrink={0}
           />
           <Text>
-            R. Rosa Zandona, 138 - São João Batista, Belo Horizonte - MG,
-            31510-405
+            R. Rosa Zandona, 128 - Venda Nova, Belo Horizonte - MG, 31510-050
           </Text>
         </Link>
       </Stack>

@@ -88,11 +88,11 @@ function App() {
       >
         <Heading
           as="h1"
-          fontSize={['2rem', '2rem', 'md']}
+          fontSize="md"
           color="grayDark"
-          margin={['2.25rem 0 1rem', '3rem 0 1rem', '6.75rem 0 2.25rem']}
+          margin={['2.25rem 0 1.25rem', '3rem 0 1rem', '6.75rem 0 2.25rem']}
           textTransform="uppercase"
-          textAlign={['center', 'center', 'left']}
+          textAlign="center"
         >
           Categorias em ferragens
         </Heading>
