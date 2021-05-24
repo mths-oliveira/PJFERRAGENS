@@ -232,6 +232,8 @@ function Card({
                       spacing=".75rem"
                       width="fit-content"
                       borderRadius="sm"
+                      transition=".2s ease"
+                      _hover={{ bg: 'red' }}
                       onClick={() => {
                         handleCartList({
                           id: ids[currentIndex],
@@ -258,6 +260,8 @@ function Card({
                     padding=".75rem "
                     spacing=".75rem"
                     width="fit-content"
+                    transition=".2s ease"
+                    _hover={{ bg: 'red' }}
                     borderRadius="sm"
                     onClick={() => {
                       if (id) {

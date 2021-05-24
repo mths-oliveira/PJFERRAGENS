@@ -172,6 +172,7 @@ function Cart({ cartList, setCartList, cartLength, setCartLength }: UseCart) {
                 textTransform="uppercase"
                 fontWeight="700"
                 onClick={handleForm}
+                transition=".2s ease"
                 disabled={cartList.length <= 0}
                 _hover={{ bg: 'red' }}
               >

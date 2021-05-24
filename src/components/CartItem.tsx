@@ -106,9 +106,11 @@ function CartItem({ description, id, src, amount, details }: CartItens) {
             <Text>Referência</Text>
             <Text
               fontSize="1rem"
-              padding=".5rem 1rem"
-              color="white"
-              bg="grayDark"
+              padding=".5rem .75rem"
+              color="black"
+              textAlign="center"
+              border="1px solid #282828"
+              bg="white"
               borderRadius="sm"
               fontWeight="700"
             >
